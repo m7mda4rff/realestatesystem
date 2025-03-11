@@ -1,0 +1,382 @@
+/* 
+ * تعديلات خاصة للهيدر - جعله ثابتًا ومتوافقًا مع الجوال
+ * إضافة لملف style-modern.css
+ */
+
+/* ===================== شريط التنقل العلوي ثابت ===================== */
+.sb-topnav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    z-index: 1030;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+/* تنسيق العنوان الرئيسي */
+.sb-topnav .navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    margin-right: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+/* تنسيق زر التبديل للقائمة الجانبية */
+.sb-topnav .btn-link {
+    color: rgba(255, 255, 255, 0.85);
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.sb-topnav .btn-link:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* تنسيق شريط البحث */
+.sb-topnav .form-inline {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.sb-topnav .input-group {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.sb-topnav .form-control {
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    padding-right: 1rem;
+}
+
+.sb-topnav .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1);
+}
+
+.sb-topnav .btn-primary {
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.sb-topnav .btn-primary:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* تنسيق قائمة المستخدم */
+.sb-topnav .navbar-nav {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.sb-topnav .nav-item {
+    position: relative;
+    margin-left: 0.5rem;
+}
+
+.sb-topnav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+}
+
+.sb-topnav .nav-link:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sb-topnav .dropdown-menu {
+    position: absolute;
+    left: 0;
+    right: auto;
+    top: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 0.75rem 0;
+    min-width: 240px;
+    margin-top: 0.5rem;
+}
+
+.sb-topnav .dropdown-header {
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.sb-topnav .dropdown-divider {
+    margin: 0.5rem 0;
+}
+
+.sb-topnav .dropdown-item {
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.sb-topnav .dropdown-item i {
+    margin-left: 0.75rem;
+    width: 1.25rem;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+/* التحكم في حجم والتباعد في الأجهزة المختلفة */
+@media (max-width: 992px) {
+    .sb-topnav .navbar-brand {
+        font-size: 1.1rem;
+        max-width: 150px;
+    }
+    
+    .sb-topnav .form-inline {
+        display: none;
+    }
+    
+    .sb-topnav .navbar-nav {
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .sb-topnav {
+        padding: 0 0.75rem;
+    }
+    
+    .sb-topnav .navbar-brand {
+        max-width: 120px;
+        font-size: 1rem;
+    }
+    
+    .sb-topnav .nav-item {
+        margin-left: 0.25rem;
+    }
+    
+    .sb-topnav .nav-link {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .sb-topnav .dropdown-menu {
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sb-topnav .navbar-brand {
+        max-width: 100px;
+    }
+    
+    .sb-topnav .btn-link {
+        width: 36px;
+        height: 36px;
+        padding: 0.25rem;
+    }
+    
+    .sb-topnav .nav-link {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+/* ===================== تعديلات للشريط الجانبي مع توافق الأجهزة المحمولة ===================== */
+#layoutSidenav_nav {
+    transition: transform 0.3s ease;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sb-sidenav {
+    padding-bottom: 60px; /* مساحة للتذييل الثابت */
+}
+
+.sb-sidenav::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sb-sidenav::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.sb-sidenav::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+
+.sb-sidenav-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    padding: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* تعديل المحتوى الرئيسي لاستيعاب الهيدر الثابت */
+#layoutSidenav_content {
+    margin-top: 60px;
+    padding-bottom: 2rem;
+}
+
+/* تطبيق تغييرات القائمة الجانبية في الأجهزة المحمولة */
+@media (max-width: 992px) {
+    .sb-sidenav-footer {
+        width: 250px;
+    }
+    
+    body:not(.sb-sidenav-toggled) {
+        overflow-x: hidden;
+    }
+    
+    .sb-sidenav-toggled #layoutSidenav_nav {
+        transform: translateX(0);
+    }
+    
+    #layoutSidenav_nav {
+        transform: translateX(250px);
+    }
+    
+    /* تطبيق طبقة مظلمة عند فتح القائمة الجانبية على الهاتف */
+    .sb-sidenav-toggled::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1015;
+    }
+}
+
+/* ===================== تعديل عرض البطاقات على الأجهزة المحمولة ===================== */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .card-header {
+        padding: 0.75rem 1rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .container-fluid {
+        padding: 1rem;
+    }
+}
+
+/* ===================== تعديلات على التخطيط العام للمحتوى ===================== */
+/* تباعد أفضل للعناصر */
+h1.mt-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+.breadcrumb {
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+}
+
+.card-header i {
+    margin-left: 0.5rem;
+    margin-right: 0;
+}
+
+.table.datatable {
+    width: 100% !important;
+}
+
+/* تعديلات الدروب داون */
+.form-select {
+    padding-right: 2.5rem;
+    background-position: left 0.75rem center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+select.form-select option {
+    padding: 0.5rem;
+    white-space: normal;
+}
+
+/* تحسينات الرسوم البيانية */
+canvas {
+    max-width: 100%;
+}
+
+/* ===================== تعديلات التذييل ===================== */
+footer.py-4 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    font-size: 0.85rem;
+}
+
+/* ===================== تعديلات القوائم المنسدلة ===================== */
+/* بصوص مشكلة الدروب داون الكبيرة */
+.dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* تحديد الحد الأقصى لارتفاع الدروب داون */
+.form-select {
+    max-height: 42px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* تحديد حجم قائمة الخيارات المنسدلة عند فتحها */
+select.form-select[size] {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* التحكم في القوائم المنسدلة في نماذج الأهداف وغيرها */
+#salesperson_id, 
+form select.form-select {
+    width: 100%;
+    height: auto;
+}
+
+/* تحسين طريقة عرض الخيارات */
+.form-select option {
+    padding: 0.5rem;
+    white-space: normal;
+}

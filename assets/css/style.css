@@ -1,0 +1,264 @@
+/* تعديلات خاصة بقوائم الاختيار (الدروب داون) */
+
+/* تحديد الحد الأقصى لارتفاع الدروب داون */
+.form-select {
+    max-height: 38px;
+}
+
+/* تحديد الحد الأقصى لعرض الدروب داون */
+.form-select option {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+/* التحكم في حجم قائمة الخيارات المنسدلة */
+select.form-select[size] {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* تعديلات على القوائم المنسدلة في مناطق محددة */
+#salesperson_id {
+    max-width: 100%;
+}
+
+/* تعديلات Select2 إذا كان مستخدماً */
+.select2-container {
+    width: 100% !important;
+}
+
+.select2-container--bootstrap-5 .select2-selection {
+    max-height: 38px;
+}
+
+.select2-container--bootstrap-5 .select2-results__option {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.select2-container--bootstrap-5 .select2-results {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* تحسين عرض الخيارات في الدروب داون */
+.dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* تعديلات خاصة للشاشات المتوسطة والكبيرة */
+@media (min-width: 768px) {
+    .form-select, 
+    #salesperson_id {
+        max-width: 100%;
+    }
+    
+    .select2-container {
+        max-width: 100% !important;
+    }
+}
+
+/* ملف الأنماط المخصصة للنظام */
+
+/* أنماط عامة */
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* لون عناصر القائمة النشطة */
+.nav-link.active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* RTL تعديلات للغة العربية */
+.dropdown-menu-end {
+    left: 0 !important;
+    right: auto !important;
+    text-align: right !important;
+}
+
+/* أنماط لوحة التحكم جانبية */
+#layoutSidenav .sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-heading {
+    padding: 1.5rem 1rem 0.5rem;
+}
+
+/* تخصيصات لـ Navbar */
+.sb-nav-fixed #layoutSidenav #layoutSidenav_content {
+    padding-left: 0;
+}
+
+/* أنماط البطاقات */
+.card {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+}
+.card .card-header {
+    font-weight: 500;
+}
+.card-header i {
+    margin-left: 0.25rem;
+}
+
+/* أنماط للجداول */
+.table-responsive {
+    overflow-x: auto;
+}
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.table th {
+    font-weight: 600;
+    background-color: #f8f9fa;
+}
+
+/* أنماط الأزرار */
+.btn {
+    margin-right: 0.25rem;
+}
+.btn-group>.btn {
+    margin-right: 0;
+}
+.btn i {
+    margin-left: 0.25rem;
+}
+
+/* أنماط للنماذج */
+.form-label {
+    font-weight: 500;
+}
+.form-floating>label {
+    padding: 1rem 0.75rem;
+}
+.form-text {
+    margin-top: 0.25rem;
+}
+.invalid-feedback {
+    font-size: 80%;
+}
+
+/* حالات المبيعات */
+.status-paid {
+    background-color: #d4edda;
+    color: #155724;
+}
+.status-pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+.status-cancelled {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* حالات الزيارات */
+.visit-planned {
+    background-color: #cce5ff;
+    color: #004085;
+}
+.visit-completed {
+    background-color: #d4edda;
+    color: #155724;
+}
+.visit-cancelled {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* أنماط للإشعارات */
+.notification-badge {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    font-size: 0.75rem;
+}
+.notification-item {
+    border-bottom: 1px solid #dee2e6;
+}
+.notification-item:last-child {
+    border-bottom: 0;
+}
+
+/* أنماط للتقويم */
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+.calendar th, .calendar td {
+    border: 1px solid #dee2e6;
+    padding: 0.75rem;
+    vertical-align: top;
+}
+.calendar th {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.calendar td {
+    height: 100px;
+}
+.calendar .today {
+    background-color: #e8f4f8;
+}
+.calendar .other-month {
+    color: #adb5bd;
+    background-color: #f8f9fa;
+}
+.calendar .event {
+    padding: 0.25rem;
+    margin-bottom: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+}
+
+/* أنماط للرسوم البيانية */
+.chart-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+/* أنماط لشاشات الجوال */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1.25rem;
+    }
+    .table-responsive {
+        font-size: 0.9rem;
+    }
+    .calendar td {
+        height: 60px;
+        font-size: 0.8rem;
+    }
+}
+
+/* أنماط إضافية للطباعة */
+@media print {
+    .sidebar, .navbar, .footer, .btn, .non-printable {
+        display: none !important;
+    }
+    .container-fluid {
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    body {
+        padding: 0;
+        background-color: white;
+    }
+    .card {
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+    .table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+    }
+    .table td, .table th {
+        background-color: #fff !important;
+    }
+}

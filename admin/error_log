@@ -1,0 +1,100 @@
+[11-Mar-2025 13:05:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::getTotalCount() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php on line 36
+[11-Mar-2025 13:05:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::getTotalCount() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php on line 36
+[11-Mar-2025 13:05:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::getTotalCount() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php on line 36
+[11-Mar-2025 13:07:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::getTotalCount() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php on line 38
+[11-Mar-2025 13:07:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::getTotalCount() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php on line 38
+[11-Mar-2025 13:09:32 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:09:32 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:09:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::getTotalCount() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php on line 45
+[11-Mar-2025 13:09:33 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:09:33 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:09:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::getTotalCount() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php on line 45
+[11-Mar-2025 13:09:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Client::getTotalCount() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php on line 39
+[11-Mar-2025 13:09:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Client::getTotalCount() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php on line 39
+[11-Mar-2025 13:10:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Visit::getTotalStats() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php on line 39
+[11-Mar-2025 13:10:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Visit::getTotalStats() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php on line 39
+[11-Mar-2025 13:10:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Visit::getTotalStats() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php on line 39
+[11-Mar-2025 13:10:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Visit::getTotalStats() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/index.php on line 39
+[11-Mar-2025 13:13:03 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:13:03 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:13:05 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:13:05 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:13:12 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:13:12 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:13:12 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:13:12 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:16:17 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:16:17 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:16:18 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:16:18 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:18:55 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:18:55 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:18:56 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:18:56 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:18:58 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:18:58 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:18:58 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:18:58 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:51:25 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:51:25 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:51:25 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:51:25 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:51:29 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:51:29 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:51:32 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:51:32 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:57:22 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:57:22 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:57:23 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:57:23 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:01:12 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:01:12 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:01:12 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:01:12 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:04:14 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:04:14 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:04:15 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:04:15 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:15:52 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:15:52 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:15:59 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:15:59 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274

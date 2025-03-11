@@ -1,0 +1,47 @@
+/* تعديلات مركزة على .form-select لحل مشكلة الدروب داون */
+
+/* تعديل الارتفاع والعرض الأساسي */
+.form-select {
+    height: auto;  /* ارتفاع تلقائي بدلاً من الثابت */
+    min-height: 38px;  /* الحد الأدنى للارتفاع */
+    padding-right: 2.25rem;  /* مساحة إضافية لأيقونة السهم */
+}
+
+/* تحسين القائمة المنسدلة والخيارات */
+.form-select option {
+    padding: 8px 12px;  /* تباعد داخلي للخيارات */
+    white-space: normal;  /* السماح بالتفاف النص إذا كان طويلاً */
+    max-width: 100%;  /* منع تجاوز حدود الحاوية */
+}
+
+/* حجم ثابت للقائمة المنسدلة عند فتحها */
+select.form-select {
+    max-height: 300px;  /* ارتفاع أقصى عند فتح القائمة */
+    overflow-y: auto;  /* إضافة شريط تمرير عمودي عند الحاجة */
+}
+
+/* تعديلات إضافية للدروب داون في نماذج الأهداف */
+#salesperson_id, 
+form select.form-select {
+    width: 100%;  /* عرض كامل للمحتوى */
+    height: auto;  /* ارتفاع تلقائي */
+    text-overflow: ellipsis;  /* إضافة نقاط الحذف للنصوص الطويلة */
+}
+
+/* تحسين مظهر القائمة في الشاشات المختلفة */
+@media (max-width: 768px) {
+    .form-select {
+        font-size: 14px;  /* خط أصغر في الشاشات الصغيرة */
+    }
+}
+
+/* إصلاح مشكلة الاختيار المتعدد إن وجدت */
+select[multiple].form-select {
+    height: auto;
+    max-height: 200px;
+}
+
+/* تعديل شكل سهم الدروب داون */
+.form-select {
+    background-position: right 0.5rem center;  /* موضع سهم الإسقاط */
+}

@@ -1,0 +1,145 @@
+[11-Mar-2025 13:13:19 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:13:25 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:13:35 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:13:37 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:16:52 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:17:01 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:17:15 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:17:17 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:18:00 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:18:04 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:21:18 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:21:20 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:24:55 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:24:57 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:50:57 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 13:51:00 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:04:36 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:04:38 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:07:18 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:07:20 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:08:10 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:08:13 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:10:33 UTC] PHP Warning:  require_once(../../classes/Property.php): Failed to open stream: No such file or directory in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/add.php on line 17
+[11-Mar-2025 14:10:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../classes/Property.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/add.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/add.php on line 17
+[11-Mar-2025 14:10:34 UTC] PHP Warning:  require_once(../../classes/Property.php): Failed to open stream: No such file or directory in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/add.php on line 17
+[11-Mar-2025 14:10:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../classes/Property.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/add.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/add.php on line 17
+[11-Mar-2025 14:13:36 UTC] PHP Warning:  require_once(../../classes/Property.php): Failed to open stream: No such file or directory in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/add.php on line 17
+[11-Mar-2025 14:13:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../classes/Property.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/add.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/add.php on line 17
+[11-Mar-2025 14:47:44 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:47:46 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:47:49 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:47:50 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:48:27 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:48:27 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:49:45 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:49:46 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:51:20 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:51:21 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:52:40 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:52:42 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:52:53 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:52:54 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:53:08 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:53:10 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:54:35 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:54:35 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:54:35 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:54:35 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:54:36 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:54:36 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:54:36 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:54:36 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:54:53 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:54:53 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:54:53 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:54:53 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:54:58 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:54:58 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:54:58 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:54:58 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:55:17 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:55:17 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:55:17 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:55:17 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:55:17 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:55:17 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:55:17 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:55:17 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:55:20 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:55:20 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:55:20 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:55:20 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:55:20 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:55:20 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:55:20 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:55:20 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:55:42 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:55:42 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:55:42 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:55:42 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:55:42 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:55:42 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:55:42 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:55:42 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:56:21 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:56:21 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:56:21 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:56:21 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:56:22 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:56:22 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:56:22 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:56:22 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:56:25 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:56:25 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:56:25 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:56:25 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:56:26 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 14:56:26 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 14:56:26 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 14:56:26 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 14:56:29 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:56:32 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:56:41 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:56:43 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:57:18 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 14:57:20 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:18:02 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:18:02 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:18:11 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:18:18 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:18:44 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:18:48 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:19:18 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:19:49 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:20:06 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 15:20:06 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 15:20:06 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 15:20:06 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 15:27:36 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:28:30 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:28:33 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:28:36 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:28:37 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:29:35 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 15:29:43 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 15:29:43 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 15:29:43 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 15:29:43 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 15:29:46 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 15:29:46 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 15:29:46 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 15:29:46 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[11-Mar-2025 15:30:44 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[11-Mar-2025 15:30:44 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[11-Mar-2025 15:30:44 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[11-Mar-2025 15:30:44 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
