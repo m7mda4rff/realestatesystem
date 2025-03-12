@@ -3,3 +3,7 @@
 [11-Mar-2025 15:16:08 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
 [11-Mar-2025 15:16:40 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
 [11-Mar-2025 15:16:55 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 23:06:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Sale::getSaleStats() in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/users/view.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/users/view.php on line 54

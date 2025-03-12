@@ -1,0 +1,84 @@
+[11-Mar-2025 16:45:54 UTC] PHP Warning:  Undefined variable $full_name in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 27
+[11-Mar-2025 16:45:54 UTC] PHP Warning:  Undefined variable $full_name_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 28
+[11-Mar-2025 16:45:54 UTC] PHP Warning:  Undefined variable $email in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 32
+[11-Mar-2025 16:45:54 UTC] PHP Warning:  Undefined variable $email_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 33
+[11-Mar-2025 16:45:54 UTC] PHP Warning:  Undefined variable $username in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 40
+[11-Mar-2025 16:45:54 UTC] PHP Warning:  Undefined variable $username_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 41
+[11-Mar-2025 16:45:54 UTC] PHP Warning:  Undefined variable $phone in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 45
+[11-Mar-2025 16:45:54 UTC] PHP Warning:  Undefined variable $password_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 53
+[11-Mar-2025 16:45:54 UTC] PHP Warning:  Undefined variable $confirm_password_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 59
+[11-Mar-2025 16:45:54 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SYSTEM_NAME" in /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/footer.php:5
+Stack trace:
+#0 /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php(78): include_once()
+#1 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/footer.php on line 5
+[11-Mar-2025 16:45:55 UTC] PHP Warning:  Undefined variable $full_name in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 27
+[11-Mar-2025 16:45:55 UTC] PHP Warning:  Undefined variable $full_name_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 28
+[11-Mar-2025 16:45:55 UTC] PHP Warning:  Undefined variable $email in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 32
+[11-Mar-2025 16:45:55 UTC] PHP Warning:  Undefined variable $email_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 33
+[11-Mar-2025 16:45:55 UTC] PHP Warning:  Undefined variable $username in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 40
+[11-Mar-2025 16:45:55 UTC] PHP Warning:  Undefined variable $username_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 41
+[11-Mar-2025 16:45:55 UTC] PHP Warning:  Undefined variable $phone in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 45
+[11-Mar-2025 16:45:55 UTC] PHP Warning:  Undefined variable $password_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 53
+[11-Mar-2025 16:45:55 UTC] PHP Warning:  Undefined variable $confirm_password_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 59
+[11-Mar-2025 16:45:55 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SYSTEM_NAME" in /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/footer.php:5
+Stack trace:
+#0 /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php(78): include_once()
+#1 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/footer.php on line 5
+[11-Mar-2025 16:46:02 UTC] PHP Warning:  Undefined variable $full_name in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 27
+[11-Mar-2025 16:46:02 UTC] PHP Warning:  Undefined variable $full_name_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 28
+[11-Mar-2025 16:46:02 UTC] PHP Warning:  Undefined variable $email in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 32
+[11-Mar-2025 16:46:02 UTC] PHP Warning:  Undefined variable $email_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 33
+[11-Mar-2025 16:46:02 UTC] PHP Warning:  Undefined variable $username in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 40
+[11-Mar-2025 16:46:02 UTC] PHP Warning:  Undefined variable $username_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 41
+[11-Mar-2025 16:46:02 UTC] PHP Warning:  Undefined variable $phone in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 45
+[11-Mar-2025 16:46:02 UTC] PHP Warning:  Undefined variable $password_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 53
+[11-Mar-2025 16:46:02 UTC] PHP Warning:  Undefined variable $confirm_password_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 59
+[11-Mar-2025 16:46:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SYSTEM_NAME" in /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/footer.php:5
+Stack trace:
+#0 /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php(78): include_once()
+#1 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/footer.php on line 5
+[11-Mar-2025 16:46:03 UTC] PHP Warning:  Undefined variable $full_name in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 27
+[11-Mar-2025 16:46:03 UTC] PHP Warning:  Undefined variable $full_name_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 28
+[11-Mar-2025 16:46:03 UTC] PHP Warning:  Undefined variable $email in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 32
+[11-Mar-2025 16:46:03 UTC] PHP Warning:  Undefined variable $email_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 33
+[11-Mar-2025 16:46:03 UTC] PHP Warning:  Undefined variable $username in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 40
+[11-Mar-2025 16:46:03 UTC] PHP Warning:  Undefined variable $username_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 41
+[11-Mar-2025 16:46:03 UTC] PHP Warning:  Undefined variable $phone in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 45
+[11-Mar-2025 16:46:03 UTC] PHP Warning:  Undefined variable $password_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 53
+[11-Mar-2025 16:46:03 UTC] PHP Warning:  Undefined variable $confirm_password_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 59
+[11-Mar-2025 16:46:03 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SYSTEM_NAME" in /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/footer.php:5
+Stack trace:
+#0 /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php(78): include_once()
+#1 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/footer.php on line 5
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $full_name in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 27
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $full_name_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 28
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $email in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 32
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $email_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 33
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $username in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 40
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $username_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 41
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $phone in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 45
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $password_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 53
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $confirm_password_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 59
+[11-Mar-2025 18:05:23 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SYSTEM_NAME" in /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/footer.php:5
+Stack trace:
+#0 /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php(78): include_once()
+#1 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/footer.php on line 5
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $full_name in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 27
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $full_name_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 28
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $email in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 32
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $email_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 33
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $username in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 40
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $username_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 41
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $phone in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 45
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $password_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 53
+[11-Mar-2025 18:05:23 UTC] PHP Warning:  Undefined variable $confirm_password_err in /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php on line 59
+[11-Mar-2025 18:05:23 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SYSTEM_NAME" in /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/footer.php:5
+Stack trace:
+#0 /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/salespeople/add.php(78): include_once()
+#1 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/footer.php on line 5

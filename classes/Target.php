@@ -53,7 +53,7 @@ class Target {
         $this->created_by = htmlspecialchars(strip_tags($this->created_by));
         
         // ربط المعلمات
-        $stmt->bind_param("iddssi", 
+        $stmt->bind_param("iddssis", 
             $this->salesperson_id, 
             $this->target_amount, 
             $this->achieved_amount, 
@@ -299,14 +299,10 @@ class Target {
      * @return boolean نتيجة التحقق
      */
     public function checkDateOverlap($salesperson_id, $start_date, $end_date, $exclude_id = null) {
-        // استعلام
+        // استعلام أبسط للتحقق من التداخل
         $query = "SELECT COUNT(*) as count FROM " . $this->table . "
                   WHERE salesperson_id = ? 
-                  AND (
-                      (start_date <= ? AND end_date >= ?) OR
-                      (start_date <= ? AND end_date >= ?) OR
-                      (start_date >= ? AND end_date <= ?)
-                  )";
+                  AND NOT (end_date < ? OR start_date > ?)";
         
         // إضافة شرط الاستثناء
         if ($exclude_id) {
@@ -318,9 +314,9 @@ class Target {
         
         // ربط المعلمات
         if ($exclude_id) {
-            $stmt->bind_param("isssssi", $salesperson_id, $end_date, $start_date, $start_date, $start_date, $start_date, $end_date, $exclude_id);
+            $stmt->bind_param("issi", $salesperson_id, $start_date, $end_date, $exclude_id);
         } else {
-            $stmt->bind_param("isssss", $salesperson_id, $end_date, $start_date, $start_date, $start_date, $start_date, $end_date);
+            $stmt->bind_param("iss", $salesperson_id, $start_date, $end_date);
         }
         
         // تنفيذ الاستعلام

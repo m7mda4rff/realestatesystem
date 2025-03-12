@@ -4,3 +4,10 @@ Stack trace:
 #1 /home/bestbmfm/hashtag-expo.com/real_estate_system/sales/visits/add.php(72): Visit->checkTimeConflict()
 #2 {main}
   thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Visit.php on line 617
+[11-Mar-2025 16:25:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Visit.php:617
+Stack trace:
+#0 /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Visit.php(617): mysqli_stmt->bind_param()
+#1 /home/bestbmfm/hashtag-expo.com/real_estate_system/sales/visits/add.php(72): Visit->checkTimeConflict()
+#2 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Visit.php on line 617
+[11-Mar-2025 16:28:38 UTC] PHP Fatal error:  Cannot redeclare Visit::updateStatus() in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Visit.php on line 422

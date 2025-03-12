@@ -9,3 +9,6 @@
 [11-Mar-2025 15:36:53 UTC] PHP Warning:  Undefined property: Target::$created_by_name in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/targets/view.php on line 176
 [11-Mar-2025 15:37:05 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
 [11-Mar-2025 15:38:07 UTC] PHP Warning:  Array to string conversion in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/User.php on line 274
+[11-Mar-2025 17:56:38 UTC] PHP Warning:  Undefined property: Target::$created_by_name in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/targets/view.php on line 176
+[11-Mar-2025 17:56:41 UTC] PHP Warning:  Undefined property: Target::$created_by_name in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/targets/view.php on line 176
+[11-Mar-2025 18:12:19 UTC] PHP Warning:  Undefined property: Target::$created_by_name in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/targets/view.php on line 176

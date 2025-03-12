@@ -1,0 +1,30 @@
+[11-Mar-2025 16:57:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php:323
+Stack trace:
+#0 /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php(323): mysqli_stmt->bind_param()
+#1 /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/targets/add.php(95): Target->checkDateOverlap()
+#2 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php on line 323
+[11-Mar-2025 17:01:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php:323
+Stack trace:
+#0 /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php(323): mysqli_stmt->bind_param()
+#1 /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/targets/add.php(95): Target->checkDateOverlap()
+#2 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php on line 323
+[11-Mar-2025 17:01:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php:323
+Stack trace:
+#0 /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php(323): mysqli_stmt->bind_param()
+#1 /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/targets/add.php(95): Target->checkDateOverlap()
+#2 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php on line 323
+[11-Mar-2025 17:03:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php:63
+Stack trace:
+#0 /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php(63): mysqli_stmt->bind_param()
+#1 /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/targets/add.php(115): Target->create()
+#2 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php on line 63
+[11-Mar-2025 17:03:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php:63
+Stack trace:
+#0 /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php(63): mysqli_stmt->bind_param()
+#1 /home/bestbmfm/hashtag-expo.com/real_estate_system/manager/targets/add.php(115): Target->create()
+#2 {main}
+  thrown in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Target.php on line 63

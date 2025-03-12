@@ -4,3 +4,8 @@
 [11-Mar-2025 04:33:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/header.php:106) in /home/bestbmfm/hashtag-expo.com/real_estate_system/sales/mysales.php on line 7
 [11-Mar-2025 04:33:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/header.php:106) in /home/bestbmfm/hashtag-expo.com/real_estate_system/sales/mysales.php on line 7
 [11-Mar-2025 04:33:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bestbmfm/hashtag-expo.com/real_estate_system/includes/header.php:106) in /home/bestbmfm/hashtag-expo.com/real_estate_system/sales/mysales.php on line 7
+[11-Mar-2025 18:19:48 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/sales/view_sale.php on line 179
+[11-Mar-2025 18:19:49 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/sales/view_sale.php on line 179
+[11-Mar-2025 18:43:15 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/sales/view_sale.php on line 179
+[11-Mar-2025 18:43:31 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/sales/view_sale.php on line 179
+[12-Mar-2025 00:01:33 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/sales/view_sale.php on line 179

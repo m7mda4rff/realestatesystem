@@ -15,6 +15,8 @@ class Client {
     public $email;
     public $address;
     public $notes;
+    public $commission_rate; // نسبة العمولة الخاصة بالعميل
+    public $tax_rate; // نسبة الضرائب الخاصة بالعميل
     public $created_by;
     public $created_at;
     public $updated_at;
@@ -36,8 +38,8 @@ class Client {
     public function create() {
         // استعلام
         $query = "INSERT INTO " . $this->table . "
-                 (name, phone, email, address, notes, created_by)
-                  VALUES (?, ?, ?, ?, ?, ?)";
+                 (name, phone, email, address, notes, commission_rate, tax_rate, created_by)
+                  VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
         
         // تحضير الاستعلام
         $stmt = $this->conn->prepare($query);
@@ -51,12 +53,14 @@ class Client {
         $this->created_by = htmlspecialchars(strip_tags($this->created_by));
         
         // ربط المعلمات
-        $stmt->bind_param("sssssi", 
+        $stmt->bind_param("sssssddi", 
             $this->name, 
             $this->phone, 
             $this->email, 
             $this->address,
             $this->notes,
+            $this->commission_rate,
+            $this->tax_rate,
             $this->created_by
         );
         
@@ -81,7 +85,9 @@ class Client {
                       phone = ?,
                       email = ?,
                       address = ?,
-                      notes = ?
+                      notes = ?,
+                      commission_rate = ?,
+                      tax_rate = ?
                   WHERE id = ?";
         
         // تحضير الاستعلام
@@ -96,50 +102,16 @@ class Client {
         $this->id = htmlspecialchars(strip_tags($this->id));
         
         // ربط المعلمات
-        $stmt->bind_param("sssssi", 
+        $stmt->bind_param("sssssddsi", 
             $this->name, 
             $this->phone, 
             $this->email, 
             $this->address,
             $this->notes,
+            $this->commission_rate,
+            $this->tax_rate,
             $this->id
         );
-        
-        // تنفيذ الاستعلام
-        if ($stmt->execute()) {
-            return true;
-        }
-        
-        return false;
-    }
-    
-    /**
-     * حذف عميل
-     * 
-     * @return boolean نجاح أو فشل العملية
-     */
-    public function delete() {
-        // استعلام للتحقق من وجود مبيعات مرتبطة بالعميل
-        $check_query = "SELECT COUNT(*) as count FROM sales WHERE client_id = ?";
-        $check_stmt = $this->conn->prepare($check_query);
-        $check_stmt->bind_param("i", $this->id);
-        $check_stmt->execute();
-        $result = $check_stmt->get_result();
-        $row = $result->fetch_assoc();
-        
-        // إذا كانت هناك مبيعات مرتبطة، لا يمكن حذف العميل
-        if ($row['count'] > 0) {
-            return false;
-        }
-        
-        // استعلام الحذف
-        $query = "DELETE FROM " . $this->table . " WHERE id = ?";
-        
-        // تحضير الاستعلام
-        $stmt = $this->conn->prepare($query);
-        
-        // ربط المعلمات
-        $stmt->bind_param("i", $this->id);
         
         // تنفيذ الاستعلام
         if ($stmt->execute()) {
@@ -184,6 +156,8 @@ class Client {
             $this->email = $row['email'];
             $this->address = $row['address'];
             $this->notes = $row['notes'];
+            $this->commission_rate = $row['commission_rate'];
+            $this->tax_rate = $row['tax_rate'];
             $this->created_by = $row['created_by'];
             $this->created_at = $row['created_at'];
             $this->updated_at = $row['updated_at'];
@@ -193,6 +167,9 @@ class Client {
         
         return false;
     }
+    
+    // باقي دوال الفئة تبقى كما هي...
+
     
     /**
      * الحصول على جميع العملاء

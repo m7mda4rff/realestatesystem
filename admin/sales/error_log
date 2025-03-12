@@ -143,3 +143,16 @@ Stack trace:
 [11-Mar-2025 15:30:44 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
 [11-Mar-2025 15:30:44 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
 [11-Mar-2025 15:30:44 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[12-Mar-2025 01:25:51 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[12-Mar-2025 01:25:51 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[12-Mar-2025 01:25:51 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[12-Mar-2025 01:25:51 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[12-Mar-2025 02:02:29 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[12-Mar-2025 02:02:29 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[12-Mar-2025 02:02:29 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[12-Mar-2025 02:02:29 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[12-Mar-2025 02:02:59 UTC] PHP Warning:  Undefined property: Sale::$notes in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 192
+[12-Mar-2025 02:02:59 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 213
+[12-Mar-2025 02:02:59 UTC] PHP Warning:  Undefined property: Sale::$payment_method in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 230
+[12-Mar-2025 02:02:59 UTC] PHP Warning:  Undefined property: Sale::$payment_details in /home/bestbmfm/hashtag-expo.com/real_estate_system/admin/sales/view.php on line 237
+[12-Mar-2025 04:19:29 UTC] PHP Fatal error:  Cannot redeclare Sale::create() in /home/bestbmfm/hashtag-expo.com/real_estate_system/classes/Sale.php on line 889

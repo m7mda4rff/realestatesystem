@@ -610,12 +610,12 @@ class Visit {
         // تحضير الاستعلام
         $stmt = $this->conn->prepare($query);
         
-        // ربط المعلمات
-        if ($exclude_id) {
-            $stmt->bind_param("isssi", $salesperson_id, $end_time, $start_time, $start_time, $end_time, $exclude_id);
-        } else {
-            $stmt->bind_param("isss", $salesperson_id, $end_time, $start_time, $start_time, $end_time);
-        }
+      // ربط المعلمات
+if ($exclude_id) {
+    $stmt->bind_param("issssi", $salesperson_id, $end_time, $start_time, $start_time, $end_time, $exclude_id);
+} else {
+    $stmt->bind_param("issss", $salesperson_id, $end_time, $start_time, $start_time, $end_time);
+}
         
         // تنفيذ الاستعلام
         $stmt->execute();
